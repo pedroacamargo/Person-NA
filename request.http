@@ -1,0 +1,12 @@
+### List all people
+GET http://localhost:3000/people
+
+### Create a person
+POST http://localhost:3000/people
+Content-Type: application/json
+
+{
+    "name": "Tiagão Machado",
+    "age": 63
+}
+
